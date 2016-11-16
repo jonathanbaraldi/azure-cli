@@ -18,7 +18,7 @@ WORKDIR /src
 ADD . /src
 
 	# Expor porta 8080
-EXPOSE  8080
+EXPOSE  8888
 
 	# Rodar o app usando nodemon
 CMD ["nodemon", "/src/index.js"]

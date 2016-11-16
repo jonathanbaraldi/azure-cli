@@ -23,6 +23,6 @@ app.get('/', function(req, res, next) {
 	res.json(data);
 });
 
-http.createServer(app).listen(8080, function() {
-  console.log('Azure-CLI online. Port ' + (8080));
+http.createServer(app).listen(8888, function() {
+  console.log('Azure-CLI online. Port ' + (8888));
 });
