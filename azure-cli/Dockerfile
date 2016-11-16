@@ -17,6 +17,8 @@ RUN mkdir -p /src && cp -a /tmp/node_modules /src/
 WORKDIR /src
 ADD . /src
 
+WORKDIR /home
+
 	# Expor porta 8080
 EXPOSE  8888
 
